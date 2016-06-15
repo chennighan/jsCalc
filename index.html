@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/jsCalc.css">
+  </head>
+  <body>
+    <div class="container text-center">
+      <h2>jsCalc Example Implementation</h2>
+    </div><br />
+    <div id="calculator" class="text-center">
+      <div class="row">
+         <div class="col-xs-12">
+            <div class="calculator_display text-right">
+              <p id="calc_data">0</p>
+            </div>
+         </div>
+      </div>
+      <div class="calculator_button_container">
+        <div class="row calculator_button_row">
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">7</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">8</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">9</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut operator_button">/</button>
+           </div>
+        </div>
+        <div class="row calculator_button_row">
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">4</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">5</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">6</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut operator_button">*</button>
+           </div>
+        </div>
+        <div class="row calculator_button_row">
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">1</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">2</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">3</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut operator_button">-</button>
+           </div>
+        </div>
+        <div class="row calculator_button_row">
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">0</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut number_button">.</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <button class="btn btn-default easeOut operator_button">+</button>
+           </div>
+           <div class="col-xs-3 calculator_button">
+              <a id="equals_button" class="btn btn-default easeOut">=</a>
+           </div>
+        </div>
+        <div class="row calculator_button_row">
+          <div class="col-xs-12 clear_button_container">
+            <a id="clear_button" class="btn btn-default easeOut form-control">clear</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container text-center">
+      <footer>
+        <p>&copy; 2015<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Hennighan Dev</p>
+      </footer>
+    </div>
+
+    <script src="js/jsCalc.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

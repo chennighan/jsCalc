@@ -1,0 +1,74 @@
+#calculator {
+   width: 400px;
+   height: 400px;
+   padding: 10px;
+   margin: 15px auto;
+   border: 2px solid #9d9d9d;
+   border-radius: 5px;
+   background: #f7f7f7;
+   box-shadow: 5px 5px 5px #333;
+}
+
+#calculator button {
+   width: 100%;
+   height: 100%;
+   margin-bottom: 10px;
+   background: #ddd;
+   color: #333;
+   font-size: 20px;
+}
+
+#calculator a {
+   width: 100%;
+   height: 100%;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   background: #ddd;
+   color: #333;
+   font-size: 20px;
+}
+
+#calculator button:hover, #calculator a:hover {
+   background: #bbb;
+   color: #ddd;
+}
+
+#calculator .calculator_display {
+   width: 100%;
+   border: 1px solid #9d9d9d;
+   height: 50px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   background: #eee;
+}
+
+#calculator .calculator_display p {
+   padding: 10px;
+   font-size: 20px;
+}
+
+#calculator .calculator_button_container {
+   margin-top: 10px;
+   height: 100%;
+}
+
+#calculator .calculator_button_row {
+   height: 15%;
+   margin: 10px;
+}
+
+#calculator .calculator_button_row .calculator_button {
+   height: 90%;
+}
+
+#calculator .calculator_button_row .clear_button_container {
+   height: 90%;
+}
+
+.easeOut {
+   -webkit-transition: all 0.25s ease-out;
+   -moz-transition: all 0.25s ease-out;
+   -o-transition: all 0.25s ease-out;
+   -ms-transition: all 0.25s ease-out;
+   transition: all 0.25s ease-out;
+}
