@@ -6,6 +6,7 @@ Initialization is simple:
 <code>var calc = jsCalc();</code>   
      
 The library relies on a few selectors.  
+  
 For your number buttons:  
 ```
 <div class="calculator_button">  
