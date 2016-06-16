@@ -47,21 +47,21 @@
    font-size: 20px;
 }
 
-#calculator .calculator_button_container {
+#calculator .jsc_calculator_button_container {
    margin-top: 10px;
    height: 100%;
 }
 
-#calculator .calculator_button_row {
+#calculator .jsc_calculator_button_row {
    height: 15%;
    margin: 10px;
 }
 
-#calculator .calculator_button_row .calculator_button {
+#calculator .jsc_calculator_button_row .jsc_calculator_button {
    height: 90%;
 }
 
-#calculator .calculator_button_row .clear_button_container {
+#calculator .jsc_calculator_button_row .jsc_clear_button_container {
    height: 90%;
 }
 

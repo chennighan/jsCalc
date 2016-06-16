@@ -5,31 +5,31 @@ jsCalc is a simple, completely vanilla JavaScript calculator library that allows
 Initialization is simple:  
 <code>var calc = jsCalc();</code>   
      
-The library relies on a few selectors.  
+The library relies on a few selectors prefixed with 'jsc_'.  
   
 For your number buttons:  
 ```
-<div class="calculator_button">  
-  <button class="number_button">1</button>
+<div class="jsc_calculator_button">  
+  <button class="jsc_number_button">1</button>
 </div>
 ```  
   
 Similarly, for operator buttons:  
 ```
-<div class="calculator_button">
-   <button class="operator_button">*</button>
+<div class="jsc_calculator_button">
+   <button class="jsc_operator_button">*</button>
 </div>
 ```  
   
 For the 'clear' button:    
 ```
-<a id="clear_button">clear</a>  
+<a id="jsc_clear_button">clear</a>  
 ```  
   
-The 'equals' button is a little different because it is checked as an operator right now, so it relies on 'calculator_button':  
+The 'equals' button is a little different because it is checked as an operator right now, so it relies on 'jsc_calculator_button':  
 ```
-<div class="calculator_button">
-  <a id="equals_button">=</a>
+<div class="jsc_calculator_button">
+  <a id="jsc_equals_button">=</a>
 </div>
 ```  
  

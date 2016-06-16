@@ -115,7 +115,7 @@
 
    jsCalc.init = function(options) {
       // Add event listeners to all the number buttons
-      var numberButtons = document.querySelectorAll('.calculator_button .number_button');
+      var numberButtons = document.querySelectorAll('.jsc_calculator_button .jsc_number_button');
       for(var i = 0; i < numberButtons.length; i++) {
          numberButtons[i].numberAppendage = numberButtons[i].textContent;
          numberButtons[i].addEventListener('click', function(event) {
@@ -124,7 +124,7 @@
       }
 
       // Add event listeners to all the operator buttons
-      var operatorButtons = document.querySelectorAll('.calculator_button .operator_button');
+      var operatorButtons = document.querySelectorAll('.jsc_calculator_button .jsc_operator_button');
       for(var i = 0; i < operatorButtons.length; i++) {
          operatorButtons[i].operatorAppendage = operatorButtons[i].textContent;
          operatorButtons[i].addEventListener('click', function(event) {
@@ -132,12 +132,12 @@
          });
       }
 
-      var clearButton = document.getElementById('clear_button');
+      var clearButton = document.getElementById('jsc_clear_button');
       clearButton.addEventListener('click', function() {
          jsCalc.prototype.hard_clear();
       });
 
-      var equalsButton = document.getElementById('equals_button');
+      var equalsButton = document.getElementById('jsc_equals_button');
       equalsButton.addEventListener('click', function(event) {
          jsCalc.prototype.operatorButtonClick(event);
       });
